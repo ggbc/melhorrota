@@ -28,7 +28,17 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet-mapping>
 		<servlet-name>realizaqueryautorizada</servlet-name>
 		<url-pattern>/realizaqueryautorizada</url-pattern>
-	</servlet-mapping>	
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>twitter_register</servlet-name>
+		<servlet-class>com.brhackday.ehnohs.TwitterRegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>twitter_register</servlet-name>
+		<url-pattern>/twitter_register</url-pattern>
+	</servlet-mapping>
+		
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
